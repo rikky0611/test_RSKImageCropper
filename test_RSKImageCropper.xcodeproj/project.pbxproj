@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A32712B02A8FEC3763F47AF /* Pods_test_RSKImageCropper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C086750002571676CADA0F0C /* Pods_test_RSKImageCropper.framework */; };
 		9AF9C5CF1CBD3363009EC7A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9C5CE1CBD3363009EC7A6 /* AppDelegate.swift */; };
 		9AF9C5D11CBD3363009EC7A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9C5D01CBD3363009EC7A6 /* ViewController.swift */; };
 		9AF9C5D41CBD3363009EC7A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9C5D21CBD3363009EC7A6 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		9AF9C5D91CBD3363009EC7A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9C5D71CBD3363009EC7A6 /* LaunchScreen.storyboard */; };
 		9AF9C5E41CBD3363009EC7A6 /* test_RSKImageCropperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9C5E31CBD3363009EC7A6 /* test_RSKImageCropperTests.swift */; };
 		9AF9C5EF1CBD3363009EC7A6 /* test_RSKImageCropperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9C5EE1CBD3363009EC7A6 /* test_RSKImageCropperUITests.swift */; };
+		9AF9C5FE1CBD3E6A009EC7A6 /* castle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9C5FD1CBD3E6A009EC7A6 /* castle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21F0605BEAA222752DE0FE8A /* Pods-test_RSKImageCropper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_RSKImageCropper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test_RSKImageCropper/Pods-test_RSKImageCropper.debug.xcconfig"; sourceTree = "<group>"; };
+		45BE5D0C356210DCEDAC809E /* Pods-test_RSKImageCropper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_RSKImageCropper.release.xcconfig"; path = "Pods/Target Support Files/Pods-test_RSKImageCropper/Pods-test_RSKImageCropper.release.xcconfig"; sourceTree = "<group>"; };
 		9AF9C5CB1CBD3363009EC7A6 /* test_RSKImageCropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_RSKImageCropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF9C5CE1CBD3363009EC7A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AF9C5D01CBD3363009EC7A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,9 @@
 		9AF9C5EA1CBD3363009EC7A6 /* test_RSKImageCropperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_RSKImageCropperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF9C5EE1CBD3363009EC7A6 /* test_RSKImageCropperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_RSKImageCropperUITests.swift; sourceTree = "<group>"; };
 		9AF9C5F01CBD3363009EC7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF9C5FC1CBD3A34009EC7A6 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		9AF9C5FD1CBD3E6A009EC7A6 /* castle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castle.png; sourceTree = "<group>"; };
+		C086750002571676CADA0F0C /* Pods_test_RSKImageCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_RSKImageCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A32712B02A8FEC3763F47AF /* Pods_test_RSKImageCropper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9088DED962AC910B6DC36EEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21F0605BEAA222752DE0FE8A /* Pods-test_RSKImageCropper.debug.xcconfig */,
+				45BE5D0C356210DCEDAC809E /* Pods-test_RSKImageCropper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9AF9C5C21CBD3363009EC7A6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,8 @@
 				9AF9C5E21CBD3363009EC7A6 /* test_RSKImageCropperTests */,
 				9AF9C5ED1CBD3363009EC7A6 /* test_RSKImageCropperUITests */,
 				9AF9C5CC1CBD3363009EC7A6 /* Products */,
+				9088DED962AC910B6DC36EEE /* Pods */,
+				CA6B591526EC3EF078B1848E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +116,14 @@
 		9AF9C5CD1CBD3363009EC7A6 /* test_RSKImageCropper */ = {
 			isa = PBXGroup;
 			children = (
+				9AF9C5FD1CBD3E6A009EC7A6 /* castle.png */,
 				9AF9C5CE1CBD3363009EC7A6 /* AppDelegate.swift */,
 				9AF9C5D01CBD3363009EC7A6 /* ViewController.swift */,
 				9AF9C5D21CBD3363009EC7A6 /* Main.storyboard */,
 				9AF9C5D51CBD3363009EC7A6 /* Assets.xcassets */,
 				9AF9C5D71CBD3363009EC7A6 /* LaunchScreen.storyboard */,
 				9AF9C5DA1CBD3363009EC7A6 /* Info.plist */,
+				9AF9C5FC1CBD3A34009EC7A6 /* BridgingHeader.h */,
 			);
 			path = test_RSKImageCropper;
 			sourceTree = "<group>";
@@ -125,6 +146,14 @@
 			path = test_RSKImageCropperUITests;
 			sourceTree = "<group>";
 		};
+		CA6B591526EC3EF078B1848E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C086750002571676CADA0F0C /* Pods_test_RSKImageCropper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AF9C5F31CBD3363009EC7A6 /* Build configuration list for PBXNativeTarget "test_RSKImageCropper" */;
 			buildPhases = (
+				563B3E5F474FD082BBC940EA /* Check Pods Manifest.lock */,
 				9AF9C5C71CBD3363009EC7A6 /* Sources */,
 				9AF9C5C81CBD3363009EC7A6 /* Frameworks */,
 				9AF9C5C91CBD3363009EC7A6 /* Resources */,
+				D59C1BC81C455900B556A86E /* Embed Pods Frameworks */,
+				F99E575FBAE58982A3B6EE5A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF9C5FE1CBD3E6A009EC7A6 /* castle.png in Resources */,
 				9AF9C5D91CBD3363009EC7A6 /* LaunchScreen.storyboard in Resources */,
 				9AF9C5D61CBD3363009EC7A6 /* Assets.xcassets in Resources */,
 				9AF9C5D41CBD3363009EC7A6 /* Main.storyboard in Resources */,
@@ -250,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		563B3E5F474FD082BBC940EA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D59C1BC81C455900B556A86E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test_RSKImageCropper/Pods-test_RSKImageCropper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F99E575FBAE58982A3B6EE5A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test_RSKImageCropper/Pods-test_RSKImageCropper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AF9C5C71CBD3363009EC7A6 /* Sources */ = {
@@ -397,23 +478,27 @@
 		};
 		9AF9C5F41CBD3363009EC7A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F0605BEAA222752DE0FE8A /* Pods-test_RSKImageCropper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test_RSKImageCropper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.test-RSKImageCropper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = test_RSKImageCropper/BridgingHeader.h;
 			};
 			name = Debug;
 		};
 		9AF9C5F51CBD3363009EC7A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BE5D0C356210DCEDAC809E /* Pods-test_RSKImageCropper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test_RSKImageCropper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.test-RSKImageCropper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = test_RSKImageCropper/BridgingHeader.h;
 			};
 			name = Release;
 		};
@@ -482,6 +567,7 @@
 				9AF9C5F51CBD3363009EC7A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AF9C5F61CBD3363009EC7A6 /* Build configuration list for PBXNativeTarget "test_RSKImageCropperTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +576,7 @@
 				9AF9C5F81CBD3363009EC7A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AF9C5F91CBD3363009EC7A6 /* Build configuration list for PBXNativeTarget "test_RSKImageCropperUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +585,7 @@
 				9AF9C5FB1CBD3363009EC7A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

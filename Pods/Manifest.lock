@@ -1,0 +1,10 @@
+PODS:
+  - RSKImageCropper (1.5.1)
+
+DEPENDENCIES:
+  - RSKImageCropper
+
+SPEC CHECKSUMS:
+  RSKImageCropper: edd65fedb3734332818deb139906d6b7f54b8a44
+
+COCOAPODS: 0.39.0
